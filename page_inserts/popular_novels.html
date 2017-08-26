@@ -1,0 +1,62 @@
+<!-- The contents of this file are inserted into the populare books section. -->
+
+<div class="half-spacer"></div>
+<div class="grid">
+    <div id="book-warning" class="section-warning" style="display:none;">
+        <i class="fa fa-exclamation-triangle"> </i>
+        No results found.
+    </div>
+    <div class="content container-fluid">
+        <div id="s1busy" class= "sectionBusy" style="display:none;" >
+            <img src="images/gears.svg" alt="loading image"><!-- image taken from: http://loading.io/ -->
+        </div>
+        <!-- logoBusy -->
+
+        <!-- Copiable template used by JS to populate page -->
+
+        <div id="bookTemplate" class="book col-xs-8 col-sm-6 col-md-4" style="display:none">
+            <div class="innerbook">
+                <div class="iconContainer">
+                    <img id="no-img-icon" src="images/no-img.png" alt="Icon">
+                    <!-- Cover -->
+                </div>
+                <div class="infoContainer">
+                    <h3 class="title"></h3> <!-- Title -->
+                    <p class="author"></p>
+                    <div class="rating">
+                        <span class="stars"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- End of template -->
+
+        <div class="row">
+            <div class="col-md-8 col-sm-8 col-xs-6 variable-padding">
+                <div class="row" id="books">
+
+                    <!-- Copies of template inserted here -->
+
+                </div>
+            </div>
+
+            <div id="bookSidebar" class="col-md-4 col-sm-4 col-xs-6 sideBar" style="display:none">
+                <div id="detailsBookTitle"></div>
+                <div id="detailsBookAuthorYear"></div>
+                <strong>Abstract</strong>
+                <div id="abstractBook"></div>
+                <strong>Book Details</strong>
+                <div id="detailsBookInfo"></div>
+                <strong>Find a copy</strong>
+                <div id="AustlitBookPage" class="externalLinks"></div>
+                <div id="externalBookLinks" class="externalLinks"></div>
+                <div id="BooktopiaBookPage" class="externalLinks"></div>
+                <strong>Rating details</strong>
+                <div id="GoodReadsReviews" class="externalLinks"></div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="accordion-spacer"></div>

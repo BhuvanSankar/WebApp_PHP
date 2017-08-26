@@ -1,0 +1,74 @@
+<!-- The contents of this file are inserted into the page as the bottom footer bar -->
+
+<!-- Inserts the FB sharing link into the page. -->
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '413953162134909',
+      xfbml      : true,
+      version    : 'v2.5'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<div id="footer" class="navbar navbar-fixed-bottom navbar-fixed-width" role="navigation">
+
+    <div class='col-xs-1 col-sm-1 col-md-1'>
+        <div class="austlit-logo">
+            <a target="_blank" href="http://www.austlit.edu.au">
+                <img src="images/AustLit_logo.png" alt="IconHeader">
+            </a>
+        </div>
+    </div>
+    <div class="col-xs-10 col-sm-10 col-md-10 container max-width centered">
+
+        <table class="table-responsive">
+            <thead>
+                <tr>
+                    <th>ABOUT AUSTLIT</th>
+                    <th>CONTENT</th>
+                    <th>USING AUSTLIT</th>
+                    <th>DATABASE SIZE</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td><a class="footerLink" href="AustLitDiscovery.php">What is AustLit Discovery?</a></td>
+                <td><a class="footerLink" href="http://www.austlit.edu.au/austlit/page/5960601">Technical Collaborations</a></td>
+                <td><a class="footerLink" href="http://www.austlit.edu.au/contacts">Contact / Feedback</a></td>
+                <td><a href='http://www.austlit.edu.au/contacts#' class='footerLink'>856,314 works</a></td>
+            </tr>
+            <tr>
+                <td><a class="footerLink" href="contributors.php">Contributors</a></td>
+                <td><a class="footerLink" href="http://www.austlit.edu.au/specialistDatasets">Research</a></td>
+                <td><a class="footerLink" href="http://www.austlit.edu.au/help">Help</a></td>
+                <td><a href='http://www.austlit.edu.au/contacts#' class='footerLink'>28,806  subjects</a></td>
+            </tr>
+            </tbody>
+        </table>
+
+    </div>
+    <div class='col-xs-1 col-sm-1 col-md-1 no-padding'>
+        <div class="fb-like"
+             data-href="http://ald.uqcloud.net"
+             data-layout="box_count"
+             data-action="like"
+             data-show-faces="true"
+             data-share="true">
+        </div>
+    </div>
+
+</div>
+
+<div id="footer-mobile" class="navbar-fixed-bottom navbar-fixed-width" role="navigation" style="display: none">
+    <div class="col-md-10 container max-width centered">
+    </div>
+</div>
