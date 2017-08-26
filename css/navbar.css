@@ -1,0 +1,229 @@
+/* Styling specific to the accordion navigation bar. */
+
+.navbar-fixed-width {
+    background-color: transparent;
+    border: 0;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.titlebar {
+    height: 69px;
+}
+
+.header {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: inline-block !important;
+}
+
+.header-quote {
+    font-family: "Arial Narrow", Arial, sans-serif;
+    float: right;
+    display: inline-block;
+    width: 230px;
+    font-size: 20px;
+    color: #494949;
+    margin-top: 10px;
+    line-height: 1.2em;
+}
+
+.quote-mark {
+    font-size: 16px;
+}
+
+.brand-logo {
+    padding: 0;
+}
+
+.brand-logo img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 51px;
+}
+
+.austlit-logo {
+    padding: 0;
+}
+
+.austlit-logo img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 80px;
+    height: 30px;
+}
+
+.search-bar {
+    padding: 10px 300px 10px 30px;
+    background-color: #494949;
+    border-radius: 6px;
+}
+
+.search-box {
+    position: relative;
+    min-width: 290px;
+}
+
+.search-box .fa-search {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    font-size: 15px;
+    color: #494949;
+}
+
+.accordion-spacer {
+    width: 100%;
+    height: 38px;
+}
+
+.half-spacer {
+    width: 100%;
+    height: 19px;
+}
+
+.variable-padding {
+    padding-left: 10px;
+}
+
+.variable-padding-right {
+    padding-right: 10px;
+}
+
+@media all and (min-width: 768px) {
+    .navbar-fixed-width {
+        width: 768px;
+        margin-left: auto !important;
+        margin-right:auto !important;
+    }
+
+    .max-width {
+        max-width: 768px;
+    }
+
+}
+
+/* Mobile design */
+@media screen and (max-width: 767px) {
+    .accordion-container {
+        padding-left: inherit;
+        padding-right: inherit;
+    }
+
+    body.sub {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .accordion-bar {
+        width: 100%;
+        padding-left: 15px;
+        border-radius: 0;
+    }
+
+    .arrow-bar {
+        width: 100%;
+        border: 0;
+        border-radius: 0;
+    }
+
+    .search-bar {
+        border-radius: 0 !important;
+        padding: 6px 15px 6px 15px !important;
+    }
+
+    .search-results {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+
+    .content {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        width: 100% !important;
+    }
+
+    .variable-padding {
+        padding-left: 0 !important;
+    }
+
+    .variable-padding-right {
+        padding-right: 0 !important;
+    }
+
+    .row {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        width: 100% !important;
+    }
+
+    .books, .authors {
+        margin-left: 0 !important;
+    }
+
+    .innerbook, .innerauthor {
+        padding: 5px 5px 3px 5px;
+    }
+
+    .search-results {
+        padding-top: 53px !important;
+    }
+
+    .titlebar {
+        height: 55px;
+    }
+
+    .header-quote {
+        display: none;
+    }
+
+    .brand-logo {
+        padding: 0;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 250px;
+    }
+
+    .austlit-logo {
+        display: none;
+    }
+
+    .brand-logo a img {
+        margin-top: 6px;
+        margin-bottom: 6px;
+        width: 250px;
+        height: 43px;
+    }
+
+    .half-spacer {
+        height: 9px;
+    }
+}
+
+@media all and (min-width: 992px) {
+    .navbar-fixed-width {
+        width: 992px;
+        margin-left: auto !important;
+        margin-right:auto !important;
+    }
+
+    .max-width {
+        max-width: 992px;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .navbar-fixed-width {
+        width: 1200px;
+        margin-left: auto;
+        margin-right:auto;
+    }
+
+    .max-width {
+        max-width: 1200px;
+    }
+}

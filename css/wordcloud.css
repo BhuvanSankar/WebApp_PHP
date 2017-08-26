@@ -1,0 +1,51 @@
+/* Styling specific to the location wordcloud section. */
+
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+
+.wordcloud .node {
+    overflow: hidden;
+    position: absolute;
+    text-indent: 1%;
+    background-image: -webkit-linear-gradient(top, hsla(0, 0%, 100%, .3), hsla(0, 0%, 100%, 0));
+    background-image: -moz-linear-gradient(top, hsla(0, 0%, 100%, .3), hsla(0, 0%, 100%, 0));
+    background-image: -ms-linear-gradient(top, hsla(0, 0%, 100%, .3), hsla(0, 0%, 100%, 0));
+    background-image: -o-linear-gradient(top, hsla(0, 0%, 100%, .3), hsla(0, 0%, 100%, 0));
+    background-image: linear-gradient(top, hsla(0, 0%, 100%, .3), hsla(0, 0%, 100%, 0));
+    text-shadow: -1px -1px 2px hsla(0, 0%, 100%, 0.25),
+    -1px -1px 2px hsla(0, 0%, 100%, 0.25),
+    -1px 1px 2px hsla(0, 0%, 100%, 0.25),
+    1px -1px 2px hsla(0, 0%, 100%, 0.25),
+    -1px 0 2px hsla(0, 0%, 100%, 0.25),
+    1px 0 2px hsla(0, 0%, 100%, 0.25);
+    transition: background 1s;
+    transition: color 0.5s;
+}
+
+.wordcloud .node:hover {
+    background: grey !important;
+    color: white;
+}
+
+text:hover {
+    fill: #40bbbf !important;
+    cursor: pointer;
+}
+
+.wordcloud {
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: 700;
+}
+
+.wordcloud form {
+    position: absolute;
+
+}
+
+.wordcloud .node div {
+    padding: 6px;
+    margin: 3%;
+}
+
+#wordcloud-container {
+    margin-top: 20px;
+}

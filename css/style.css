@@ -1,0 +1,463 @@
+/* Generic styling across all pages. */
+
+html, body {
+    height: 100%;
+}
+
+a {
+    outline: 0;
+}
+
+.row{
+    z-index:-1;
+    color: #ccc;
+}
+
+.sectionBusy{
+    position:absolute;
+    z-index:1;
+}
+
+.search-results {
+    background: url('/images/sandstone_bricks_wall.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow-y:scroll;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+.search-results-light {
+    background: url('/images/sandstone_bricks_wall_opaque.jpg') no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow-y:scroll;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+body.sub {
+    padding-top: 153px;
+    background: url('/images/blur_bg.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body.home {
+    background: url('/images/landing_bg.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body.accordion{
+    padding-top: 100px;
+    background: url('/images/blur_bg.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+.vertical-center {
+    min-height: 75%; /* Fallback for browsers do NOT support vh unit */
+    min-height: 75vh; /* These two lines are counted as one :-)       */
+
+    display: flex;
+    align-items: center;
+}
+
+.main {
+    min-height: 100%;
+    height: 100%;
+}
+
+/* Search bar */
+
+header .iconHeader {
+    height: 50px;
+    display: table-cell;
+    float: left;
+    max-width: 300px;
+}
+
+.sub-search-bar {
+    height: 25px
+}
+
+#searchIcon {
+    margin-left: 0px;
+    padding: 6px;
+    width: 50px;
+    border-width: 1.2px;
+    border-style: solid;
+    border-color: gray;
+}
+
+#searchIcon:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.section-help {
+    color: #2f2f2f;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    margin-left: 5px;
+}
+
+.section-warning {
+    color: #2f2f2f;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    margin-left: 5px;
+    height: 25px;
+}
+
+.subtext p {
+    color: #2f2f2f;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 5px;
+}
+
+/* Footer bar */
+div.centered {
+    text-align: center;
+}
+
+div.centered table {
+    margin: 0 auto;
+    text-align: left;
+}
+
+
+#footer {
+    border-top: 1px solid white;
+    padding: 10px 0 10px 0;
+    margin-bottom: 0 !important;
+    font-size: x-small;
+    color: #494949;
+}
+
+#footer td {
+    min-width: 140px;
+}
+
+#footer td a {
+    color: #494949;
+}
+
+#footer td a:hover {
+    text-decoration: none;
+    color: rgb(225, 118, 36);
+}
+
+#footer td a:visited {
+    color: #494949;
+}
+
+#footer-mobile {
+    padding: 0;
+    font-size: x-small;
+    height: 1px;
+    margin: 0;
+    color: #d7aa45;
+}
+
+#footer .fb-block {
+    z-index: 20;
+}
+
+.form-control {
+    height: 30px;
+    border-radius: 6px !important;
+    text-indent: 25px;
+}
+
+.btn {
+    padding: 10px 14px;
+    border-radius: 4px;
+}
+
+.logo-full img {
+    padding: 0 0 0 8px;
+}
+
+.logo {
+    float: left;
+    margin: 6px 0 0 8px;
+    padding: 0;
+}
+
+.logo img {
+    min-width: 10px;
+}
+
+.social-links {
+    font-size: 24px;
+}
+
+/* Side bar */
+
+.sideBar p {
+    font-size: 0.85em;
+    margin: 0px;
+    padding: 0px;
+}
+
+.sideBar strong {
+    font-size: 0.85em;
+    margin: 0px;
+}
+
+#detailsBookAuthorYear, #detailsAuthorLocation{
+    color: grey;
+    padding-bottom: 5px;
+}
+
+#abstractBook, #detailsBookInfo, #biographyAuthor{
+    padding-bottom: 5px;
+}
+
+.externalLinks {
+    margin-bottom: 5px;
+}
+
+.externalLinks img{
+    width: 24px;
+    height: 24px;
+    margin-right: 15px;
+    float: left;
+}
+
+.externalLinks a {
+    margin: 0px;
+    font-size: 1.05em;
+}
+
+.externalLinks a:hover {
+    cursor: pointer;
+}
+
+#bookSidebar, #authorSidebar {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #494949;
+}
+
+#bookSidebar h3, #authorSidebar h3 {
+    font-size: 1.25em;
+    font-weight: bold;
+    margin-bottom:0px;
+}
+
+#bookSidebar{
+    margin: 0px;
+}
+
+
+/* Book template */
+
+#books, #authors {
+    padding-right: 30px;
+}
+
+.book {
+    padding: 10px;
+    margin-bottom: 15px;
+    line-height: 50%;
+    text-align: center;
+}
+
+.author {
+    padding: 10px;
+    margin-bottom: 15px;
+    line-height: 50%;
+    text-align: center;
+}
+
+.book p, .author p{
+    padding: 0 !important;
+}
+
+.innerbook, .innerauthor {
+    padding: 10px 10px 5px 10px;
+    margin: 0 auto;
+    width: 90%;
+    color: #494949;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 13px 12px 11px 3px rgba(0,0,0,0.46);
+    position:relative;
+}
+
+.innerbook {
+    max-width: 200px;
+    min-width: 150px;
+}
+
+.innerauthor {
+    max-width: 200px;
+    min-width: 150px;
+}
+
+.innerbook:hover, .innerauthor:hover {
+    top: 3px !important;
+    box-shadow: 10px 9px 8px 3px rgba(0,0,0,0.51);
+    transition: all 60ms linear;
+    cursor: pointer;
+}
+
+.innerbook:active, .innerauthor:active {
+    top: 6px !important;
+    box-shadow: 7px 6px 5px 3px rgba(0,0,0,0.56);
+}
+
+.innerbook.active, .innerauthor.active {
+    top: 6px !important;
+    box-shadow: 7px 6px 5px 3px rgba(0,0,0,0.56);
+}
+
+.iconContainer {
+    height: 140px;
+}
+
+.iconContainer img {
+    min-width: 100px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.infoContainer {
+    height: 85px;
+}
+
+.infoContainer h3, .infoContainer p, .rating{
+    font-family: "Arial Narrow",Arial,sans-serif;
+    font-stretch: condensed;
+    margin: 7px 0 5px 0;
+}
+
+.infoContainer h3 {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.infoContainer p {
+    font-size: 0.90em;
+}
+
+.infoContainer .rating {
+    margin: 5px 0 0 0;
+}
+
+#no-img-icon {
+    min-width: 62px;
+}
+
+.littlebook {
+    padding: 2px;
+    text-align: center;
+}
+
+.littleIconContainer img {
+    width: 76px;
+}
+
+#little-no-img-icon {
+    width: 76px;
+}
+
+.littleIconContainer {
+    padding: 0;
+    height: 115px;
+}
+
+.littleInfoContainer {
+    display: block;
+    padding: 0;
+    height: 40px;
+    overflow: hidden;
+    color: white;
+}
+
+.littleInfoContainer p {
+    padding: 2px !important;
+}
+
+span.stars, span.stars span {
+    display: inline-flex;
+    background: url(/images/stars.png) 0 -16px repeat-x;
+    width: 80px;
+    height: 16px;
+    margin-top: 2px;
+}
+
+span.stars span {
+    background-position: 0 0;
+}
+
+.genre {
+    height: 50px;
+    margin: 0 auto;
+    display: table;
+    vertical-align: middle;
+    font-size: 2.5em;
+}
+
+.genre span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+img.loadbar {
+    display: none;
+}
+
+img.loadbar-small {
+    display: none;
+}
+
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.no-padding-inline {
+    display: inline;
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+}
+
+#rgraph-austlit-logo {
+    height: 18px;
+}
+
+.info-page {
+    color: #494949;
+}
+
+.info-page h4 {
+    font-weight: 500;
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+
+.info-page h5 {
+    font-weight: 600;
+    margin-top: 2px;
+    margin-bottom: 4px;
+}

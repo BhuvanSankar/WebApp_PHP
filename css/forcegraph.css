@@ -1,0 +1,45 @@
+/* Styling specific to the forcegraph / relationship page */
+
+@import url(http://fonts.googleapis.com/css?family=Wire+One);
+
+.forcegraph .node:hover {
+    background: grey !important;
+    color: white;
+}
+
+.forcegraph form {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.forcegraph-container {
+    position: relative;
+}
+
+.forcegraph {
+    margin: 20px 0 0 0;
+}
+
+.fg-book {
+    padding: 2px;
+    position:absolute;
+    text-align: center;
+    width: 80px;
+    height: 160px;
+    font: 12px sans-serif;
+    background: #3F3D3D;
+    border: 0px;
+}
+
+.fg-book h3{
+    margin: 2px;
+    color: white;
+    font-size: 10px;
+}
+
+.fg-book p{
+    margin: 2px;
+    color: white;
+    font-size: 8px;
+}

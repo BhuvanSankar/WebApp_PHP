@@ -1,0 +1,49 @@
+/* Styling specific to the treemap / hot topics sections */
+
+@import url(http://fonts.googleapis.com/css?family=Arial+Narrow);
+
+.treemap .node {
+    overflow: hidden;
+    position: absolute;
+    text-indent: 1%;
+}
+
+.treemap .node:hover {
+    background: rgba(127, 127, 127, 0.65) !important;
+    border: 3px solid #40bbbf;
+    cursor: pointer;
+}
+
+.treemap-container {
+    font-family: "Arial Narrow" !important;
+    font-weight: 500;
+    color: #1d1d1d;
+    position: relative;
+    min-height: 300px;
+    padding-left: 8px;
+}
+
+.treemap {
+    margin: 10px 0 0 0;
+}
+
+.treemap form {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.treemap .node div {
+    padding: 6px 4%;
+}
+
+.topic-image {
+    width: 100%;
+    height: 100%;
+    padding: 0 !important;
+    margin: 0;
+}
+
+.topic-image p {
+    margin: 5px;
+}

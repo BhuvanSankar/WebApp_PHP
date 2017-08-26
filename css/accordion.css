@@ -1,0 +1,41 @@
+/* Styling specific to the accordion bars in the nav bar. */
+
+.accordion-bar {
+    z-index: 100;
+    padding: 5px 0 5px 30px;
+    background-color: #494949;
+    border-radius: 6px;
+    margin-top: 2px;
+    color: white;
+    font-size: large;
+}
+
+.accordion-bar img {
+    padding-top: 3px;
+    float: right;
+}
+
+.arrow-bar {
+    z-index: 100;
+    border: 1px solid #40bbbf;
+    border-radius: 6px;
+    color: #40bbbf;
+    font-size: 45px;
+    height: 38px;
+}
+
+.arrow-bar img {
+    display: block;
+    height: 20px;
+    margin: 10px auto 5px auto;
+}
+
+.accordion-container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#sectionOneHeader, #sectionTwoHeader, #sectionThreeHeader,
+#sectionFourHeader, #sectionFiveHeader, #sectionDownArrow, #sectionUpArrow {
+    cursor: pointer;
+}
